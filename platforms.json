@@ -1,0 +1,32 @@
+{
+  "clouds": [
+    {
+      "name": "General availability (GA)",
+      "rails": [
+        {
+          "name": "Production",
+          "endpoints": {
+            "distribution": "%{cfs}%/master%"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Internal",
+      "rails": [
+        {
+          "name": "Alpha",
+          "endpoints": {
+            "distribution": "%{cfs}%/internal_alpha"
+          }
+        },
+        {
+          "name": "Beta",
+          "endpoints": {
+            "distribution": "%{cfs}%/internal_beta"
+          }
+        }
+      ]
+    }
+  ]
+}
